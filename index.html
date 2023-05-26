@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--========Autor========-->
+    <meta name="author" contente="Marcio Reis">
+    <meta name="description" contente="Projeto do desenvolvedor front-end Marcio Reis">
+    <meta name="keywords"
+    contente="HTML, CSS, SASS, Tailwind, Styled Components, JavaScript, TypeScript, React, Git, GitHub, Jest, Testing Library, SEO, Regex, Acessibilidade web, Scrum, Dev, Desenvolvedor, Front-end">
+    <!--========Icon========-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+	<!--========CSS========-->
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!--========Favicon========-->
+
+	<!--========GSAP========-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+	<!--========JavaScript========-->
+
+	<title>Animation teste 1</title>
+</head>
+
+<body>
+	
+	<!--========Top Container========-->
+	<section class="top__container">
+
+		<!--========Stripes========-->
+		<div class="stripes__container">
+			<div class="container">
+				<div class="stripes">
+					<div class="stripe-1"></div>
+					<div class="stripe-2"></div>
+					<div class="stripe-3"></div>
+				</div>
+			</div>
+		</div>
+
+		<!--========Header========-->
+		<header class="header">
+			<div class="container">
+				<nav class="navbar">
+					<a href="index.html" class="navbar__logo">logo</a>
+					<ul class="navbar__items">
+						<li class="navbar__item">
+							<a href="#" class="navbar__link">home</a>
+						</li>
+						<li class="navbar__item">
+							<a href="#" class="navbar__link">home</a>
+						</li>
+						<li class="navbar__item">
+							<a href="#" class="navbar__link">home</a>
+						</li>
+						<li class="navbar__item">
+							<a href="#" class="navbar__link">home</a>
+						</li>
+					</ul>
+					<a href="#" class="contact__btn">contato</a>
+					<div class="toggle__btn">
+						<span class="open__btn"><i class="uil uil-bars"></i></span>
+						<span class="close__btn"><i class="uil uil-times"></i></span>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+		<!--========Box Image========-->
+		<div class="box__image">
+			<img src="assets/images/hero.png" alt="">
+		</div>
+
+		<!--========Box Title========-->
+		<div class="box__title">
+			<span>márcio<label>reis</label>
+			</span>
+		</div>
+
+		<!--========Box Sub-title========-->
+		<div class="box__subtitle">
+			<h2>Desenvolvedor Front-end</h2>
+		</div>
+
+		<!--========Btn Primary========-->
+		<a href="#" class="btn__primary">Fale comigo</a>
+
+		<!--========Scroll Down========-->
+		<div class="scroll__down">
+			<i class="uil uil-arrow-up"></i>
+		</div>
+
+		<!--========Social Media========-->
+		<div class="social__media">
+			<ul class="social__items">
+				<li class="social__item">
+					<a href="#" class="social__link">
+						<i class="uil uil-linkedin"></i>
+					</a>
+				</li>
+				<li class="social__item">
+					<a href="#" class="social__link">
+						<i class="uil uil-instagram-alt"></i>
+					</a>
+				</li>
+				<li class="social__item">
+					<a href="#" class="social__link">
+						<i class="uil uil-twitter"></i>
+					</a>
+				</li>
+				<li class="social__item">
+					<a href="#" class="social__link">
+						<i class="uil uil-github"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+	</section>
+
+
+
+	<!--========GSAP========-->
+	<script>
+		TweenMax.to('.stripe-1', 2, {
+			delay: 0,
+			height: '100vh',
+			ease: Power2.easeInOut
+		})
+		TweenMax.to('.stripe-2', 2, {
+			delay: 0.4,
+			height: '100vh',
+			ease: Power2.easeInOut
+		})
+		TweenMax.to('.stripe-3', 2, {
+			delay: 0.8,
+			height: '100vh',
+			ease: Power2.easeInOut
+		})
+	</script>
+</body>
+</html>
