@@ -4,7 +4,7 @@
 
 Testando animação com CSS e GSAP
 
-## 🚀 Em desenvolvimento...
+## 🚀 Finalizado!
 
 ## 📋 Tecnologias
 HTML + CSS + GSAP
